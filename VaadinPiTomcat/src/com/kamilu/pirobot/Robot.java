@@ -7,6 +7,7 @@ import com.pi4j.io.gpio.GpioPinDigitalOutput;
 import com.pi4j.io.gpio.PinMode;
 import com.pi4j.io.gpio.PinState;
 import com.pi4j.io.gpio.RaspiPin;
+import com.vaadin.ui.Notification;
 
 public class Robot implements RobotService {
 
@@ -154,7 +155,7 @@ public class Robot implements RobotService {
 			motorcamLR.setStepInterval(3);
 			motorcamLR.setStepSequence(single_step_sequence);
 			motorcamLR.setStepsPerRevolution(2038);
-			System.out.println("Robot loaded");
+			Notification.show("Robot loaded");
 			robotLoaded = true;
 		}
 	}
