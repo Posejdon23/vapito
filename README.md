@@ -1,7 +1,7 @@
 vapito
 ======
 
-vaddin 7.3, raspberry pi tomcat8 guice, pi4j
+IN PROGRESS
 
 Web application for Raspberry Pi for controlling motors through GPIO pins(pi4j library) and receive camera capture (webcam addon
 for vaadin). 
